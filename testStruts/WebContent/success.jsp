@@ -9,6 +9,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	你好<s:property value="username"/>
+	你好<s:property value="user.username"/>
 </body>
 </html>

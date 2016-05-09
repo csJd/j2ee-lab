@@ -2,26 +2,25 @@ package action;
 
 import com.opensymphony.xwork2.ActionSupport;
 
+import vo.User;
+
 public class LoginAction extends ActionSupport {
 	private static final long serialVersionUID = 1L;
-	private String username;
-	private String password;
-	public String getUsername() {
-		return username;
+
+	private User user;
+
+	public User getUser() {
+		return user;
 	}
-	public void setUsername(String username) {
-		this.username = username;
+
+	public void setUser(User user) {
+		this.user = user;
 	}
-	public String getPassword() {
-		return password;
-	}
-	public void setPassword(String password) {
-		this.password = password;
-	}
-	
-	public String execute() throws Exception{
-		if(getUsername().equals("wustzz")&&getPassword().equals("123456"))
+
+	public String execute() throws Exception {
+		if (user.getUsername().equals("wustzz") && user.getPassword().equals("123456"))
 			return SUCCESS;
-		else return ERROR;
+		else
+			return ERROR;
 	}
 }
