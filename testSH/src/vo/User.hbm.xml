@@ -10,9 +10,9 @@
 	primary key columns of an associated child class with a composite key. This 
 	is very useful for legacy data! -->
 
-<hibernate-mapping package="vo"> <!--所在包 -->
+<hibernate-mapping>
 
-	<class name="User" table="users" catalog="j2ee"> <!--类和表的映射 -->
+	<class name="vo.User" table="users"> <!--类和表的映射 -->
 
 		<id name="id" column="id">  <!--主键映射 -->
 			<generator class="native" />
