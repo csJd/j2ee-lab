@@ -1,0 +1,33 @@
+[INFO][2016-04-29 23:26:39,109][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@328bdd6b: startup date [Fri Apr 29 23:26:39 CST 2016]; root of context hierarchy
+[INFO][2016-04-29 23:26:39,166][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2016-04-29 23:26:39,434][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-hibernate.xml]
+[INFO][2016-04-29 23:26:39,653][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[INFO][2016-04-29 23:26:39,663][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2016-04-29 23:26:39,979][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2016-04-29 23:26:40,115][org.hibernate.annotations.common.Version]HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[INFO][2016-04-29 23:26:40,121][org.hibernate.Version]HHH000412: Hibernate Core {4.1.7.Final}
+[INFO][2016-04-29 23:26:40,123][org.hibernate.cfg.Environment]HHH000206: hibernate.properties not found
+[INFO][2016-04-29 23:26:40,124][org.hibernate.cfg.Environment]HHH000021: Bytecode provider name : javassist
+[INFO][2016-04-29 23:26:40,503][org.hibernate.dialect.Dialect]HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO][2016-04-29 23:26:40,524][org.hibernate.engine.transaction.internal.TransactionFactoryInitiator]HHH000399: Using default transaction strategy (direct JDBC transactions)
+[INFO][2016-04-29 23:26:40,528][org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory]HHH000397: Using ASTQueryTranslatorFactory
+[INFO][2016-04-29 23:26:40,828][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000228: Running hbm2ddl schema update
+[INFO][2016-04-29 23:26:40,828][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000102: Fetching database metadata
+[INFO][2016-04-29 23:26:40,831][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000396: Updating schema
+[INFO][2016-04-29 23:26:40,847][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000261: Table found: sharingcar.user
+[INFO][2016-04-29 23:26:40,848][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000037: Columns: [id, name, password]
+[INFO][2016-04-29 23:26:40,848][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000108: Foreign keys: []
+[INFO][2016-04-29 23:26:40,848][org.hibernate.tool.hbm2ddl.TableMetadata]HHH000126: Indexes: [primary, name_unique]
+[INFO][2016-04-29 23:26:40,849][org.hibernate.tool.hbm2ddl.SchemaUpdate]HHH000232: Schema update complete
+[INFO][2016-04-29 23:26:40,918][org.springframework.orm.hibernate4.HibernateTransactionManager]Using DataSource [{
+	CreateTime:"2016-04-29 23:26:39",
+	ActiveCount:0,
+	PoolingCount:1,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:1038735059, ConnectTime:"2016-04-29 23:26:40", UseCount:2, LastActiveTime:"2016-04-29 23:26:40"}
+	]
+}] of Hibernate SessionFactory for HibernateTransactionManager

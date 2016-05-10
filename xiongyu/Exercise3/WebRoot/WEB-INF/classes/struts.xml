@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN" "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="user" namespace="/" extends="struts-default">
+		<action name="UserInfo" class="com.xy.action.UserAction" method="userinfo">
+			<result name="success">userinfo.jsp</result>
+		</action>
+		<action name="UserAdd" class="com.xy.action.UserAction" method="useradd">
+			<result name="success">useradd.jsp</result>
+		</action>
+		<action name="UserEdit" class="com.xy.action.UserAction" method="useredit">
+			<result name="success">useredit.jsp</result>
+		</action>
+		<action name="UserDelete" class="com.xy.action.UserAction" method="userdelete">
+			<result name="success">index.jsp</result>
+		</action>
+		
+		<action name="UserAddSubmit" class="com.xy.action.UserAction" method="useraddsubmit">
+			<result name="success">index.jsp</result>
+		</action>
+		<action name="UserEditSubmit" class="com.xy.action.UserAction" method="usereditsubmit">
+			<result name="success">index.jsp</result>
+		</action>
+	</package>
+</struts>
